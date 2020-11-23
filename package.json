@@ -1,20 +1,21 @@
 {
   "name": "reyes",
-  "version": "1.0.0",
-  "description": "Personal Webpage",
+  "version": "2.0.0",
+  "description": "Personal webpage",
   "main": "index.js",
-  "scripts": {
-    "start": "parcel src/index.pug",
-    "build": "parcel build src/index.pug -d docs"
-  },
   "repository": "https://github.com/imreyesjorge/reyes",
   "author": "Jorge Reyes <reyestrevjorge@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "parcel": "^1.12.4"
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
   },
-  "devDependencies": {
-    "pug": "^3.0.0",
-    "sass": "^1.26.9"
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "next": "^10.0.2",
+    "postcss": "^8.1.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.1"
   }
 }
